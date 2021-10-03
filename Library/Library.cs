@@ -8,7 +8,7 @@ namespace Library
         static void Main(string[] args)
         {
             Console.WriteLine("Hello User!");
-            Constants.Instance.Functions.AddBooks();
+            Functions.AddBooks();
             UIControls uIControls = new UIControls();
             UIControls.ShowUserControl();
 

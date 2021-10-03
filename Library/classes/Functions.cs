@@ -76,7 +76,7 @@ namespace Library.classes
             }
         }
 
-        public void AddBooks()
+        public static void AddBooks()
         {
             Variables.Instance.booksList = new List<Book>() {
             new Book() { Author = "J.K. Rowling, Mary GrandPrÃ©", Name = "Harry Potter and the Philosopher's Stone", PublishDate = 1997, Rating = 4.44 },
